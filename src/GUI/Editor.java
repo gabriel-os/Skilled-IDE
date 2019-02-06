@@ -18,6 +18,7 @@ public class Editor extends JFrame {
             if (String.valueOf(text.charAt(index)).matches("\\W")) {
                 break;
             }
+            
         }
         return index;
     }
